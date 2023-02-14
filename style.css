@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(136, 0, 154);
+}
+
+.dotted {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(251, 255, 5);
+}
+
+nav {
+  background-color: skyblue;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+}
+
+ul {
+  float: right;
+  padding-top: 30px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+
+}
+
+nav li a:hover {
+  color: rgb(242, 242, 59);
+}
